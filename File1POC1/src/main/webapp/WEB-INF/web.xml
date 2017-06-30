@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>UploadFile</servlet-name>
+  	<display-name>UploadFile</display-name>
+  	<description></description>
+  	<servlet-class>com1.KT1.UploadFile</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Home</servlet-name>
+  	<display-name>Home</display-name>
+  	<description></description>
+  	<servlet-class>com1.KT1.Home</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Download</servlet-name>
+  	<display-name>Download</display-name>
+  	<description></description>
+  	<servlet-class>com1.KT1.Download</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BucketGoogle</servlet-name>
+  	<display-name>BucketGoogle</display-name>
+  	<description></description>
+  	<servlet-class>com1.KT1.BucketGoogle</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BucketTest</servlet-name>
+  	<display-name>BucketTest</display-name>
+  	<description></description>
+  	<servlet-class>com1.KT1.BucketTest</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TestBucket</servlet-name>
+  	<display-name>TestBucket</display-name>
+  	<description></description>
+  	<servlet-class>com1.KT1.TestBucket</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UploadFile</servlet-name>
+  	<url-pattern>/UploadFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Home</servlet-name>
+  	<url-pattern>/Home</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Download</servlet-name>
+  	<url-pattern>/Download</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BucketGoogle</servlet-name>
+  	<url-pattern>/BucketGoogle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BucketTest</servlet-name>
+  	<url-pattern>/BucketTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TestBucket</servlet-name>
+  	<url-pattern>/TestBucket</url-pattern>
+  </servlet-mapping>
+</web-app>
